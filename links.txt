@@ -1,0 +1,3 @@
+# Source Code
+https://manning.com/books/rust-in-action
+https://github.com/rust-in-action/code
