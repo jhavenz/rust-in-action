@@ -1,0 +1,1 @@
+/Users/jhavens/Code/Rust/RustInActionBook/chapter6/target/debug/chapter6: /Users/jhavens/Code/Rust/RustInActionBook/chapter6/src/main.rs /Users/jhavens/Code/Rust/RustInActionBook/chapter6/src/raw_pointers.rs

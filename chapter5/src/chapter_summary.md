@@ -1,0 +1,11 @@
+Summary
+- The same bit pattern can represent multiple values, depending on its data type.
+- Integer types within Rust’s standard library have a fixed width. Attempting to increment past an integer’s maximum value is an error called an integer overflow. Decrementing past its lowest value is called integer underflow.
+- Compiling programs with optimization enabled (for example, via cargo build --release) can expose your programs to integer overflow and underflow as run-time checks are disabled.
+- Endianness refers to the layout of bytes in multibyte types. Each CPU manufacturer decides the endianness of its chips. A program compiled for a little-endian CPU malfunctions if one attempts to run it on a system with a big-endian CPU.
+- Decimal numbers are primarily represented by floating-point number types. The standard that Rust follows for its f32 and f64 types is IEEE 754. These types are also known as single precision and double precision floating point.
+- Within f32 and f64 types, identical bit patterns can compare as unequal (e.g., f32::NAN != f32::NAN), and differing bit patterns can compare as equal (e.g., -0 == 0). Accordingly, f32 and f64 only satisfy a partial equivalence relation. Programmers should be mindful of this when comparing floating-point values for equality.
+- Bitwise operations are useful for manipulating the internals of data structures. However, doing so can often be highly unsafe.
+- Fixed-point number formats are also available. These represent numbers by encoding a value as the nominator and using an implicit denominator.
+- Implement std::convert::From when you want to support type conversions. But in cases where the conversion may fail, the std::convert::TryFrom trait is the preferred option.
+- A CPU opcode is a number that represents an instruction rather than data. Memory addresses are also just numbers. Function calls are just sequences of numbers.
