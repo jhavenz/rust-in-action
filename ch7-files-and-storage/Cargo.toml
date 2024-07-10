@@ -1,0 +1,15 @@
+[package]
+name = "ch7-files-and-storage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bincode = "1"
+serde = "1"
+serde_cbor = "0.8"
+serde_derive = "1"
+serde_json = "1"
+
+[lints.rust]
+dead_code = "allow"
+const_item_mutation = "allow"

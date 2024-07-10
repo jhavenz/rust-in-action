@@ -5,7 +5,9 @@ use crate::the_stack::{mutable_is_strong_password, read_only_is_strong_password}
 mod raw_pointers;
 mod the_stack;
 mod the_heap;
-mod particles;
+mod mem_scanner;
+mod program_addresses;
+mod meminfo_win;
 
 fn main() {
     println!("--- Pointers ---");
@@ -29,6 +31,12 @@ fn main() {
 
     allocating_and_deallocating_memory_on_the_heap();
 
-    println!("Running particles:");
-    particles::run();
+    /// Uncomment Cargo.toml lib and Use `cargo run -q -- --particles=true` to initiate the particles simulation.
+    // if let Some(_) = std::env::args().find(|arg| arg == "--particles=true") {
+    //     println!("Running particles:");
+    //     particles::run();
+    // }
+
+    println!("--- mem_scanner ---");
+    program_addresses::run();
 }
