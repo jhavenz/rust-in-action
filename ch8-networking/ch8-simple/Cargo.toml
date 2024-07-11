@@ -1,0 +1,7 @@
+[package]
+name = "ch8-simple"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.9"

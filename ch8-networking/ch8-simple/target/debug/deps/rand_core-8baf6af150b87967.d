@@ -1,0 +1,11 @@
+/Users/jhavens/Code/Rust/RustInActionBook/ch8-networking/ch8-simple/target/debug/deps/librand_core-8baf6af150b87967.rmeta: /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs
+
+/Users/jhavens/Code/Rust/RustInActionBook/ch8-networking/ch8-simple/target/debug/deps/librand_core-8baf6af150b87967.rlib: /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs
+
+/Users/jhavens/Code/Rust/RustInActionBook/ch8-networking/ch8-simple/target/debug/deps/rand_core-8baf6af150b87967.d: /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs /Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs
+
+/Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/lib.rs:
+/Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/error.rs:
+/Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/block.rs:
+/Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/impls.rs:
+/Users/jhavens/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rand_core-0.4.2/src/le.rs:

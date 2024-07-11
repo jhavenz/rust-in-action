@@ -1,0 +1,8 @@
+[package]
+name = "ch8-stdlib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+trust-dns = "^0.16.0"
+rand = "0.6.5"
