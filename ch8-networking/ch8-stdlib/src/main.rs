@@ -1,12 +1,18 @@
-mod dns;
-
-use std::io::Write;
+use std::io::{Error, Write};
 use std::net::TcpStream;
-use rand::{random, thread_rng};
+use rand::{random};
 use trust_dns::op::{Message, MessageType, OpCode, Query};
-use trust_dns::rr::RecordType;
+use trust_dns::rr::{Name, RecordType};
 
 fn main() -> std::io::Result<()> {
+    // tcp_request()?;
+
+    dns_lookup();
+
+    Ok(())
+}
+
+fn tcp_request() -> Result<(), Error> {
     let host = "jsonplaceholder.typicode.com:80";
 
     let mut conn = TcpStream::connect(host)?;
@@ -19,20 +25,20 @@ fn main() -> std::io::Result<()> {
 
     std::io::copy(&mut conn, &mut std::io::stdout())?;
 
-    dns_lookup();
-
     Ok(())
 }
 
 fn dns_lookup() {
-    let domain_name = "www.rust-lang.org";
+    let domain_name = Name::from_ascii("www.rust-lang.org").unwrap();
+
     let mut msg = Message::new();
 
     msg
-        .set_id(rand::random::<u16>())
+        .set_id(random::<u16>())
         .set_message_type(MessageType::Query)
         .add_query(Query::query(domain_name, RecordType::A))
         .set_op_code(OpCode::Query)
         .set_recursion_desired(true);
 
+    println!("Message: {:?}", msg);
 }
