@@ -1,0 +1,10 @@
+[package]
+name = "ch8-macgen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.7"
+
+[lints.rust]
+dead_code = "allow"

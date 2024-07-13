@@ -1,3 +1,6 @@
+mod using_a_boxed_trait_as_return_value;
+mod using_enum_to_catch_upstream_error;
+
 use std::net::{SocketAddr, UdpSocket};
 use std::ops::Add;
 use std::time::Duration;
@@ -15,7 +18,6 @@ fn main() {
         .get_matches();
 
     let domain_name_raw = app.value_of("domain-name").map(|s| {
-        // add www. to beginning of 's' if it's not there
         if !s.starts_with("www.") {
             // s.to_string();
 
