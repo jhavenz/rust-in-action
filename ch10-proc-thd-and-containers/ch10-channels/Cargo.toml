@@ -1,0 +1,11 @@
+[package]
+name = "ch10-channels"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.7"
+svg = "0.6"
+
+[lints.rust]
+dead_code = "allow"

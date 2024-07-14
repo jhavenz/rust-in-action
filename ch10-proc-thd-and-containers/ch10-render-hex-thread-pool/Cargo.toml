@@ -1,0 +1,13 @@
+[package]
+name = "ch10-render-hex-thread-pool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+svg = "0.6"
+crossbeam = "0.7"
+rayon = "1.10.0"
+
+[lints.rust]
+dead_code = "allow"
+unused_imports = "allow"

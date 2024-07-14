@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ch10-channels/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-multi-thread-sleep-strategy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-multi-thread-sleeps/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-render-hex-functional/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-render-hex-thread-pool/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-render-hex/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-sleeping-a-subthread/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10-two-subthreads/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-channels/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-multi-thread-sleep-strategy/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-multi-thread-sleeps/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-render-hex-functional/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-render-hex-thread-pool/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-render-hex/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-sleeping-a-subthread/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch10-two-subthreads/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
