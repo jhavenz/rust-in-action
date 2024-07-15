@@ -1,0 +1,10 @@
+[package]
+name = "ch12-basic-handler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+
+[lints.rust]
+dead_code = "allow"

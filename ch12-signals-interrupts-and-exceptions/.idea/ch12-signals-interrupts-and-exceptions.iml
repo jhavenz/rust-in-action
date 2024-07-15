@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ch12-asm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-basic-handler/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-callstack/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-fn-pntr-demo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-ignore-signal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-sixty/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-sjlj/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12-toy-global/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-asm/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-basic-handler/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-callstack/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-fn-pntr-demo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-ignore-signal/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-sixty/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-sjlj/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ch12-toy-global/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
